@@ -33,7 +33,7 @@ const TopBar = () => {
             </strong>
           ))}
         </Text>
-        <a href="https://discord.com/jba4UQkp" target="_blank">
+        <a href="https://discord.gg/cTwhdxZz" target="_blank">
         Join the community here! <RightArrow />
         </a>
       </Box>

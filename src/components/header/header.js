@@ -72,7 +72,7 @@ export default function Header() {
               </Button>
               */}
 
-              <a href="https://discord.com/jba4UQkp" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
+              <a href="https://discord.gg/cTwhdxZz" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>
               <Button
                 variant="text"
                 sx={{
