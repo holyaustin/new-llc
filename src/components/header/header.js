@@ -49,7 +49,7 @@ export default function Header() {
           sx={styles.header}
           className={state.isSticky ? 'is-sticky' : ''}
         >
-          <Container sx={styles.container}>
+          <Container sx={styles.container} >
              {/** <Logo sx={styles.logo} isSticky={state.isSticky} /> */}
 
             <Navbar
@@ -78,7 +78,7 @@ export default function Header() {
                 sx={{
                   ...styles.joinCommunity,
                   backgroundColor: state.isSticky ? 'primary' : 'white',
-                  color: state.isSticky ? 'white' : 'primary',
+                  color: state.isSticky ? 'white' : 'black',
                 }}
               >
                 

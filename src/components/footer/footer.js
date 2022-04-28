@@ -11,11 +11,11 @@ import { Fragment } from 'react';
 export default function Footer() {
   return (
     <Fragment>
-      <CallToAction />
+      {/**<CallToAction /> */}
       <Box as="footer" sx={styles.footer}>
         <Container>
           <Box sx={styles.footerTopInner}>
-            <Box sx={styles.about}>
+            <Box sx={styles.about} >
               <Box sx={styles.logo}>
                 {/**<Logo /> */}
               </Box>
@@ -24,13 +24,15 @@ export default function Footer() {
                 <Text as="span">|</Text>
                 <Link path="#!">Privacy</Link>
               </Box>
-              <Text as="p" sx={styles.copyright}>
+              <Text as="p" sx={styles.copyright} >
                 Copyright by {new Date().getFullYear()} THE NEW LLC
               </Text>
             </Box>
+            <div>
             {menuItems.map(({ id, title, items }) => (
               <Widget key={id} title={title} items={items} />
             ))}
+            </div>
           </Box>
         </Container>
       </Box>
@@ -40,19 +42,16 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: '#F9FAFC',
+    backgroundColor: '#F0F8FF',
     pt: [8, null, null, 10],
     pb: [8, null, null, 15],
   },
   footerTopInner: {
-    gap: [30, null, 50, '20px 50px', 17, 50],
+    gap: [130, null, 50, '25px 35px', 17, 750],
     display: ['grid'],
     gridTemplateColumns: [
       'repeat(2, 1fr)',
-      null,
-      null,
-      'repeat(4, 1fr)',
-      'repeat(5, 1fr)',
+
     ],
   },
   footerInner: {

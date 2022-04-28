@@ -10,6 +10,7 @@ import UltimateFeatures from 'sections/ultimate-feature';
 import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
+import Mission from 'sections/mission';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
 import Support from 'sections/support';
@@ -28,7 +29,8 @@ export default function IndexPage() {
         {/*<UltimateFeatures /> */}
         {/*<CustomerSupport /> */}
         {/*<Pricing /> */}
-        <Testimonials /> 
+        <Mission /> 
+        {/*<Testimonials /> */}
         {/*<Blog /> */}
         {/*<Faq /> */}
        {/* <Support /> */}

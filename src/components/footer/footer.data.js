@@ -1,9 +1,11 @@
 import facebook from 'assets/images/icons/facebook.png';
 import twitter from 'assets/images/icons/twitter.png';
 import github from 'assets/images/icons/github.png';
-import dribbble from 'assets/images/icons/dribbble.png';
+//import dribbble from 'assets/images/icons/dribbble.png';
+import instagram from 'assets/images/icons/Instagram.png';
 
 export const menuItems = [
+  /**
   {
     id: 2,
     title: 'About Us',
@@ -81,13 +83,13 @@ export const menuItems = [
         label: 'Permissions',
       },
     ],
-  },
+  },  */
   {
     id: 5,
-    title: 'Connect',
+    title: 'Connect ',
     items: [
       {
-        path: '#!',
+        path: 'https:www.facebook.com',
         icon: facebook,
         label: 'Facebook',
       },
@@ -103,8 +105,8 @@ export const menuItems = [
       },
       {
         path: '#!',
-        icon: dribbble,
-        label: 'Dribbble',
+        icon: instagram,
+        label: 'Instagram',
       },
     ],
   },

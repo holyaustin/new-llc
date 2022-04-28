@@ -5,7 +5,11 @@ export default [
   },
   {
     path: 'testimonials',
-    label: 'Vision',
+    label: 'Mission',
+  },
+  {
+    path: '',
+    label: 'RoadMap',
   },
   /** 
   {

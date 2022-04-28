@@ -14,7 +14,7 @@ import {
 import { useState } from 'react';
 import { rgba } from 'polished';
 import Image from 'components/image';
-import serverRack from 'assets/images/server-rack.png';
+import serverRack from 'assets/images/LLC/ai.jpg';
 import Background from 'assets/images/LLC/bg1.gif';
 
 
@@ -71,6 +71,7 @@ const Banner = () => {
             <Button 
             type="submit" 
             variant="primary" 
+            //style={{backgroundColor: '#81aed9'}}
             sx={styles.submit} >
               Join the community
             </Button>

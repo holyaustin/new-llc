@@ -82,7 +82,7 @@ const styles = {
   },
   blockquote: {
     color: 'heading',
-    fontSize: [2, null, null, 4, 8, 11],
+    fontSize: [2, null, null, 4, 8, 10],
     fontWeight: [500, null, null, 400],
     lineHeight: [null, null, null, 1.7, 1.53],
     letterSpacing: 'heading',
